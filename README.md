@@ -6,6 +6,8 @@
 You can use the [editor on GitHub](https://github.com/GenomicsStandardsConsortium/gensc.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 To see the website generated from this Repo:
+https://only1chunts.github.io/only1chunts-gensc.github.io/
+or the one in the main gsc repo:
 https://genomicsstandardsconsortium.github.io/gensc.github.io/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
