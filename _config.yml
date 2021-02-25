@@ -20,9 +20,7 @@ navbar:
   - text: Namespace policy
     href: namespace/
 markdown: kramdown
-output:
-  html_document:
-    theme: jekyll-theme-dinky
+theme: jekyll-theme-dinky
 plugins:
   - jekyll-gist
 # Twitter username (used by jekyll-seo-tag)
