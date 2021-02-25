@@ -1,4 +1,3 @@
-  
 name: "GSC Portal"
 author: "GSC"
 title: Genomics Standards Consortium
@@ -20,15 +19,12 @@ navbar:
       href: rdf/
   - text: Namespace policy
     href: namespace/
-  right:
-  - text: GitHub
-    href: https://github.com/tdwg/dwc
-
 markdown: kramdown
-theme: jekyll-theme-dinky
+output:
+  html_document:
+    theme: jekyll-theme-dinky
 plugins:
   - jekyll-gist
-  
 # Twitter username (used by jekyll-seo-tag)
 twitter:
   username: genomestandards
