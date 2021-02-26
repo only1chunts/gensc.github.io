@@ -1,7 +1,7 @@
 {% include header.html %}
 
-<p style="font-size:50px; color:red" >THIS IS A DEVELOPMENT VERSION OF THE GSC Website<br>
-For the active GSC website, please visit https://gensc.org/.</p>
+<p style="font-size:30px; color:red" >THIS IS A DEVELOPMENT VERSION OF THE GSC Website<br>
+For the active GSC website, please visit <a href="https://gensc.org/">https://gensc.org/</a>.</p>
 
 
 # Genomic Standards Consortium
