@@ -1,6 +1,9 @@
 {% include header.html %}
 
-# <tbody><tr>THIS IS A DEVELOPMENT VERSION OF THE GSC Website</tr><tr>For the active GSC website, please visit https://gensc.org/.</tr></tbody>
+<tbody>
+<tr># THIS IS A DEVELOPMENT VERSION OF THE GSC Website</tr>
+<tr># For the active GSC website, please visit https://gensc.org/.</tr>
+</tbody>
 
 # Genomic Standards Consortium
 
