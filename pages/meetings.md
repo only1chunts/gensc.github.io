@@ -1,4 +1,4 @@
-{%include heaer.html%}
+{% include header.html %}
 
 ## **Upcoming meetings:**
 
