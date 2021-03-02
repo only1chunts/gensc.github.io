@@ -1,11 +1,8 @@
-[![Genomic Standards Consortium](/images/cropped-full_gsc_logo_sml.png)](https://gensc.org/)
-
-| [Home](http://gensc.org) | [Meeting](/pages/meetings.md) | [About](/pages/about.md) | [News](/pages/new/news.md) | [Projects](/pages/projects.md) | [Checklists](/pages/checklists.md) | [Contact](/pages/contact.md) | 
-
+{%include heaer.html%}
 
 ## **Upcoming meetings:**
 
-*   [GSC22, Bangkok, Thailand, July 13-17, 2020](/pages/meetings/current.md)
+*   [GSC22, Bangkok, Thailand, July 13-17, 2020](https://only1chunts.github.io/only1chunts-gensc.github.io/pages/meetings/current.md)
 
 ## **Past meetings:**
 
