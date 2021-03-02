@@ -1,24 +1,28 @@
 {% include header.html %}
 
-<p style="font-size:30px; color:red" >THIS IS A DEVELOPMENT VERSION OF THE GSC Website<br>
-For the active GSC website, please visit <a href="https://gensc.org/">https://gensc.org/</a>.</p>
-
+<br>
+<p style="font-size:30px; color:red" >THIS IS A DEVELOPMENT VERSION OF THE GSC Website<br><br>
+For the live website, please visit <a href="https://gensc.org/">https://gensc.org/</a>.</p>
+<br>
 
 # Genomic Standards Consortium
 
 The Genomic Standards Consortium (GSC) is an open-membership working body formed in September 2005. The aim of the GSC is making genomic data discoverable. The GSC enables genomic data integration, discovery and comparison through international community-driven standards.
+Learn more on the [About](https://genomicsstandardsconsortium.github.io/gensc.github.io/pages/about.html) page.
 
-For the active GSC website, please visit <https://gensc.org/>.
-
-# News
-we should insert an active news feed here showing title and topic of most recent news itmes added, but I have no idea how to do that.
-
+# Announcements
+For a complete list of all announcements and news posts see [here](https://genomicsstandardsconsortium.github.io/gensc.github.io/pages/blog.html)
+<br>
+{% for post in site.posts limit:3 %}
+- {{ post.date | date: "%-d %B %Y" }} - <a href="{{site.url}}{{ post.url }}"> {{ post.title }}</a>
+{% endfor %}
  
-## Twitter feed
-We need to make this twitter feed window smaller! but i dont know how to do that.
+ 
+# Twitter <a href="https://twitter.com/genomestandards?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @genomestandards</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-height="400" data-theme="light" href="https://twitter.com/genomestandards?ref_src=twsrc%5Etfw">Tweets by genomestandards</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<a <!-- class="twitter-timeline" href="https://twitter.com/genomestandards?ref_src=twsrc%5Etfw">Tweets by genomestandards</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" ></script> -->
 
+<!--
 ## Site Map
 * [Home](/)
  * [Meetings pages](pages/meetings.md)
@@ -33,11 +37,11 @@ We need to make this twitter feed window smaller! but i dont know how to do that
     * [Community](pages/about/community.md)
     * [Members](pages/about/GSC-members.md)
     * [Funding](pages/about/funding.md)
- * [News](pages/news.md)
-    * [Publications](pages/news/publication-list.md)
+    * [Publications](pages/about/publication-list.md)
       - Stuff GSC have published
       - Stuff citing GSC
- * [Projects](pages/projects.md)
+ * [News](pages/news.md)
+     * [Projects](pages/projects.md)
  * [Standards](pages/standards-intro.md)
     * current standards
        * [Introduction](pages/standards/packages.md) 
@@ -56,6 +60,6 @@ We need to make this twitter feed window smaller! but i dont know how to do that
     - includes; email, mailing lists, twitter, slack etc
     - Membership (how to join us etc)
 
-
+-->
 
 
