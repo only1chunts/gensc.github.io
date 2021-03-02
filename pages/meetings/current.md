@@ -1,5 +1,4 @@
-{%include header.html%}
-
+{% include header.html %}
 # GSC22 \[postponed\]
 
 22nd Genomic Standards Consortium Meeting[![](/images/Full_gsc_logo_small_2010-300x63.png)](/images/Full_gsc_logo_small_2010.png)
