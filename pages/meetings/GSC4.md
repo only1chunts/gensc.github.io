@@ -1,3 +1,12 @@
+---
+layout: default
+title:GSC4
+category: meeting
+tag: [meeting]
+date:2007-06-06
+---
+{% include header.html %}
+
 ![logo](images/GSC4_Header-master.gif)
 
 eGenomics IV  6-8th June 2007
