@@ -9,7 +9,7 @@
 
 <td width="50%">
 
-![](egenomics_cat_logo.jpg)
+<img src="egenomics_cat_logo.jpg">
 
 </td>
 
