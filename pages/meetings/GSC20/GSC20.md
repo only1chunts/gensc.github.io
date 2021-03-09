@@ -9,7 +9,7 @@ GSC board meeting May 1st, 2018
 **Theme: Advances in Metabolome, Immunome & Taxonomy for Microbiome**  
 GSC 20’s 3-day meeting will highlight the nexus of genomic standards, microbiomes and advances in metabolomics, immunome and taxonomy.
 
-[AGENDA](https://docs.google.com/document/d/1-BiqeKLefCJJIESACSjPpHyxxytT4PaW-ggnRwNzBb0/edit) : daily agenda, speakers
+[AGENDA](GSC20Agenda.pdf) : daily agenda, speakers
 
 May 1: 2:00 pm GSC Board Meeting
 
@@ -17,13 +17,13 @@ May 1: 2:00 pm GSC Board Meeting
 Doors open at 8:30 am.  
 GSC20: 9:00 am – 5:00 pm.
 
-[LOGISTICS](https://docs.google.com/document/d/1Xt9QtzDz26A_znnz076pv7AyAGXB4UCNQZS7LqIrZXw/edit?usp=sharing): walking directions, maps, parking
+[LOGISTICS](GSC20logistics.pdf): walking directions, maps, parking
 
 **Venue:** Center for Microbiome Innovation, Atkinson Hall at University of California San Diego, USA  
 **GSC Organizers:** Rob Knight, Lynn Schriml, Folker Meyer, Pelin Yilmaz, Jim Cole  
 **Local Organizers:** Rob Knight, Sandrine Miller
 
-![](../../images/center-for-microbiome-innovation-logo-150x150.jpg)![](../../images/uc-san-diego-logo.jpg)![](../../images/knight-lab-logo.jpg)
+![](images/center-for-microbiome-innovation-logo-150x150.jpg)![](images/uc-san-diego-logo.jpg)![](images/knight-lab-logo.jpg)
 
 **Registration** is open through **April 1st, 2018.**  
 Registration Fee: **$400 USD (Students: $200 USD).**  
@@ -60,15 +60,15 @@ Pelin Yilmaz (Max Planck Institute for Marine Microbiology)
 
 **Platinum Sponsor**:
 
-[![](../../images/zymo-research-logo.png title:Zymo Reseach)
+[![](images/zymo-research-logo.png title:Zymo Reseach)
 
 **Silver Sponsor**:
 
-[![](../../images/illumina-logo-300x94.png title:Illumina)
+[![](images/illumina-logo-300x94.png title:Illumina)
 
 **Bronze Sponsor**:
 
-[![](../../images/NIST-1-300x134.jpeg title:NIST National Institute of Standards and Technology)
+[![](images/NIST-1-300x134.jpeg title:NIST National Institute of Standards and Technology)
 
 **Logistics:**
 
