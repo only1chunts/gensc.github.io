@@ -3,7 +3,7 @@
 #Meetings
 =========
 
-![](images/GSC19-Group-outside-lightened-1024x336.jpg "GSC19 group photo" | width=100)
+![](images/GSC19-Group-outside-lightened-1024x336.jpg "GSC19 group photo" {width="100%"})
 
 ## **Upcoming meetings:**
 
