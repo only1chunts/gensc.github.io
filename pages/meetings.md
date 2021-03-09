@@ -1,7 +1,6 @@
 {% include header.html %}
 
 # Meetings
-==========
 
 <img src="images/GSC19-Group-outside-lightened-1024x336.jpg" width=100%>
 
