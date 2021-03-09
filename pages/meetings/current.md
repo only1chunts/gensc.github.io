@@ -123,6 +123,8 @@ Parwinder Kaur – DNA Zoo Australia
 **Sponsors:**
 
 [![](agilent-logo.png "Agilent")](https://www.agilent.com/) 
-[![](scientificData.png "Scientific Data"](https://www.nature.com/sdata/) 
+
+[![](scientificData.png "Scientific Data")](https://www.nature.com/sdata/) 
+
 [![](CNGB-LOGO-300x154.png "Chine National GeneBank(CNGB)")](https://db.cngb.org) 
 
