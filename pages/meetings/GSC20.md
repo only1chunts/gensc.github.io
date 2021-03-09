@@ -23,7 +23,7 @@ GSC20: 9:00 am – 5:00 pm.
 **GSC Organizers:** Rob Knight, Lynn Schriml, Folker Meyer, Pelin Yilmaz, Jim Cole  
 **Local Organizers:** Rob Knight, Sandrine Miller
 
-![](images/center-for-microbiome-innovation-logo-150x150.jpg)![](images/uc-san-diego-logo.jpg)![](images/knight-lab-logo.jpg)
+![](../../images/center-for-microbiome-innovation-logo-150x150.jpg)![](../../images/uc-san-diego-logo.jpg)![](../../images/knight-lab-logo.jpg)
 
 **Registration** is open through **April 1st, 2018.**  
 Registration Fee: **$400 USD (Students: $200 USD).**  
@@ -60,15 +60,15 @@ Pelin Yilmaz (Max Planck Institute for Marine Microbiology)
 
 **Platinum Sponsor**:
 
-[![](images/zymo-research-logo.png title:Zymo Reseach)
+[![](../../images/zymo-research-logo.png title:Zymo Reseach)
 
 **Silver Sponsor**:
 
-[![](images/illumina-logo-300x94.png title:Illumina)
+[![](../../images/illumina-logo-300x94.png title:Illumina)
 
 **Bronze Sponsor**:
 
-[![](images/NIST-1-300x134.jpeg title:NIST National Institute of Standards and Technology)
+[![](../../images/NIST-1-300x134.jpeg title:NIST National Institute of Standards and Technology)
 
 **Logistics:**
 
