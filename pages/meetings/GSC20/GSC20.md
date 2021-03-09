@@ -60,15 +60,15 @@ Pelin Yilmaz (Max Planck Institute for Marine Microbiology)
 
 **Platinum Sponsor**:
 
-[![](images/zymo-research-logo.png title:Zymo Reseach)
+![](images/zymo-research-logo.png "Zymo Research")
 
 **Silver Sponsor**:
 
-[![](images/illumina-logo-300x94.png title:Illumina)
+![](images/illumina-logo-300x94.png "Illumina")
 
 **Bronze Sponsor**:
 
-[![](images/NIST-1-300x134.jpeg title:NIST National Institute of Standards and Technology)
+![](images/NIST-1-300x134.jpeg "NIST National Institute of Standards and Technology")
 
 **Logistics:**
 
