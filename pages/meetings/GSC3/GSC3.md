@@ -9,7 +9,7 @@
 
 <td width="50%">
 
-![egenomics_cat_logo.jpg](/gensc.github.io/images/egenomics_cat_logo.jpg)
+![](egenomics_cat_logo.jpg)
 
 </td>
 
