@@ -240,6 +240,9 @@ Students $200 USD, Academia $400 USD, Industry $600
 
 **Hotels:** There are a number of hotels located in close proximity to the conference venue and are easily reachable by public transport.
 
-[Hotel Bellevue](https://bellevuehotel.at/), [Arthotel Ana Katharina Hotel](https://ana-hotels.com/katharina), [Strudlhof Hotel](http://www.strudlhof.at/en/), [Hotel Mania](https://hotelmania.net/hotel/vienna/checkvienna-liechtensteinstrase/), [Hotel Atlanta](http://www.hotelatlanta.at/), [Hotel Boltzmann](http://www.hotelboltzmann.at/)
-
-© 2021 [Genomic Standards Consortium](https://gensc.org/ "Genomic Standards Consortium")
+[Hotel Bellevue](https://bellevuehotel.at/)
+[Arthotel Ana Katharina Hotel](https://ana-hotels.com/katharina)
+[Strudlhof Hotel](http://www.strudlhof.at/en/)
+[Hotel Mania](https://hotelmania.net/hotel/vienna/checkvienna-liechtensteinstrase/)
+[Hotel Atlanta](http://www.hotelatlanta.at/)
+[Hotel Boltzmann](http://www.hotelboltzmann.at/)
