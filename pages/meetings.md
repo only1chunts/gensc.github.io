@@ -1,5 +1,10 @@
 {% include header.html %}
 
+#Meetings
+=========
+
+![](images/GSC19-Group-outside-lightened-1024x336.jpg "GSC19 group photo" | width=100)
+
 ## **Upcoming meetings:**
 
 *   [GSC22, Bangkok, Thailand, July 13-17, 2020](https://only1chunts.github.io/only1chunts-gensc.github.io/pages/meetings/current.md)
