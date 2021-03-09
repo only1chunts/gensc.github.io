@@ -2,7 +2,7 @@
 
 # Meetings
 
-<img src="https://only1chunts.github.io/only1chunts-gensc.github.ioimages/GSC19-Group-outside-lightened-1024x336.jpg" width=100%>
+<img src="https://only1chunts.github.io/only1chunts-gensc.github.ioimages/GSC19-Group-outside-lightened-1024x336.jpg" width="640">
 
 ## **Upcoming meetings:**
 
