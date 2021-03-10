@@ -4,14 +4,14 @@
 
 {% for term in site.data.terms %}
 <h4>MIXS ID - {{ term.mixsId }} </h4>
-<br> Term display name - {{term.label}}
+Term display name - {{term.label}}
 <br> Structured Comment name - {{term.structuredCommentName}}
-<br> Definition - {{term.details.definition}}
-<br> Expected value - {{term.details.expectedValue}}
-<br> Value syntax - {{term.details.valueSyntax}}
-<br> Example - {{term.details.example}}
-<br> Prefered Unit - {{term.details.preferredUnit}}
-<br> Number of occurences permitted - {{term.details.occurence}}
+<br> Definition - {{term.definition}}
+<br> Expected value - {{term.expectedValue}}
+<br> Value syntax - {{term.valueSyntax}}
+<br> Example - {{term.example}}
+<br> Prefered Unit - {{term.preferredUnit}}
+<br> Number of occurences permitted - {{term.occurence}}
 <br>
 <br>		
 {% endfor %}
