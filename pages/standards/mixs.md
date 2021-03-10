@@ -1,18 +1,20 @@
 {% include header.html %}
 
-<div> 	{% for term in site.checklists.core %}
-        <div><h4>MIXS ID - {{ term.item }}</h4>
-        {% for item in term.mixsId %}
-			<p>Structured Comment name - {{mixsId.structuredCommentName}}</p>
-			<p>Term display name - {{label}}</p>
-			<p>Definition - {{definition}}</p>
-			<p>Expected value - {{expectedValue}}</p>
-			<p>Value syntax - {{valueSyntax}}</p>
-			<p>Example - {{example}}</p>
-			<p>Prefered Unit - {{preferredUnit}}</p>
-			<p>Number of occurences permitted - {{occurence}}</p>
-		{% endfor %}
+# MIxS checklist terms
 
+{% for mixsId in site.data.core %}
+	<ui><h4>MIXS ID - {{ mixsId.item }}</h4></ui>
+        <li>{% for details in mixsId.item %}
+			<p>Structured Comment name - {{detail.structuredCommentName}}</p>
+			<p>Term display name - {{detail.label}}</p>
+			<p>Definition - {{detail.definition}}</p>
+			<p>Expected value - {{detail.expectedValue}}</p>
+			<p>Value syntax - {{detail.valueSyntax}}</p>
+			<p>Example - {detail.example}}</p>
+			<p>Prefered Unit - {{detail.preferredUnit}}</p>
+			<p>Number of occurences permitted - {{detail.occurence}}</p>
+		{% endfor %}
+</li>
         </div>
         {% endfor %}
 </div>
