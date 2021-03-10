@@ -1,46 +1,18 @@
 {% include header.html %}
 
-<div class="row">
+<div> 	{% for term in site.checklists.mixsId %}
+        <div><h4>MIXS ID - {{ term.item }}</h4>
+        {% for item in term.mixsId %}
+			<p>Structured Comment name - {{mixsId.structuredCommentName}}</p>
+			<p>Term display name - {{label}}</p>
+			<p>Definition - {{definition}}</p>
+			<p>Expected value - {{expectedValue}}</p>
+			<p>Value syntax - {{valueSyntax}}</p>
+			<p>Example - {{example}}</p>
+			<p>Prefered Unit - {{preferredUnit}}</p>
+			<p>Number of occurences permitted - {{occurence}}</p>
+		{% endfor %}
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
-
-        {% for term in site.checklists.mixsId %}
-        <div>
-            <h4 class="schedule-table-heading">MIXS ID - {{ term.item }}</h4>
-            <table class="table table-bordered table-striped table-hover table-responsive table-sm">
-            {% for item in term.mixsId %}
-                    <thead>
-                            <tr>
-                                <th class="bg-info text-center">
-                                        <div>Structured Comment name</div>
-                                </th>
-                                <th class="bg-warning text-center">
-                                            <p class="text-muted">{{mixsId.structuredCommentName}}</p>
-                                    </th>
-                            </tr>
-                    </thead>
-            {% endfor %}
-            </table>
         </div>
         {% endfor %}
-
-        {% include contact-us.html %}
-    </div>
-	<script>
-		var acc = document.getElementsByClassName("accordion");
-		var i;
-		
-		for (i = 0; i < acc.length; i++) {
-			acc[i].addEventListener("click", function() {
-				this.classList.toggle("active");
-				var panel = this.nextElementSibling;
-				if (panel.style.maxHeight) {
-					panel.style.maxHeight = null;
-				} else {
-					panel.style.maxHeight = panel.scrollHeight + "px";
-				} 
-			});
-		}	
-	</script>
 </div>
-
