@@ -15,6 +15,5 @@
 			<p>Number of occurences permitted - {{detail.occurence}}</p>
 		{% endfor %}
 </li>
-        </div>
-        {% endfor %}
-</div>
+{% endfor %}
+
