@@ -7,17 +7,15 @@
 <ul> {% for term in site.data.terms %}
 * MIXS ID - {{ term.mixsId }}
 <br>
-    <ul>
 			* Structured Comment name - {{term.details.structuredCommentName}}
-			* Term display name - {{detail.label}}
-			* Definition - {{detail.definition}}
-			* Expected value - {{detail.expectedValue}}
-			* Value syntax - {{detail.valueSyntax}}
-			* Example - {detail.example}}
-			* Prefered Unit - {{detail.preferredUnit}}
-			* Number of occurences permitted - {{detail.occurence}}
-	</ul>	
-		{% endfor %}
+			* Term display name - {{term.details.label}}
+			* Definition - {{term.details.definition}}
+			* Expected value - {{term.details.expectedValue}}
+			* Value syntax - {{term.details.valueSyntax}}
+			* Example - {term.details.example}}
+			* Prefered Unit - {{term.details.preferredUnit}}
+			* Number of occurences permitted - {{term.details.occurence}}
+
 </ul>		
 {% endfor %}
 
