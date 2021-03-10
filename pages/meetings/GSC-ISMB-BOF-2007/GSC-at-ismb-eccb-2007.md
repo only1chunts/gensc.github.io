@@ -1,10 +1,9 @@
 ---
-layout:defalt
-title:GSC at ISMB/ECCB 2007
+layout: defalt
+title: "GSC at ISMB/ECCB 2007"
 tag:[meeting]
-date:2007-08-02
+date: 2007-08-02
 collection: meeting
-
 ---
 {% include header.html %}
 
