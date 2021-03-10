@@ -7,8 +7,8 @@
 <ul> {% for term in site.data.terms %}
 * MIXS ID - {{ term.mixsId }}
 <br>
-    <ul>{% for detail in term.details %}
-			* Structured Comment name - {{detail.structuredCommentName}}
+    <ul>
+			* Structured Comment name - {{term.details.structuredCommentName}}
 			* Term display name - {{detail.label}}
 			* Definition - {{detail.definition}}
 			* Expected value - {{detail.expectedValue}}
