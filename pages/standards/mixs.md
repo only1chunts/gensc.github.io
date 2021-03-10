@@ -3,17 +3,16 @@
 # MIxS checklist terms
 
 {% for term in site.data.terms %}
-	<ui><h4>MIXS ID - {{ term.mixsId }}</h4></ui>
-        <li>{% for detail in term.details %}
-			<p>Structured Comment name - {{detail.structuredCommentName}}</p>
-			<p>Term display name - {{detail.label}}</p>
-			<p>Definition - {{detail.definition}}</p>
-			<p>Expected value - {{detail.expectedValue}}</p>
-			<p>Value syntax - {{detail.valueSyntax}}</p>
-			<p>Example - {detail.example}}</p>
-			<p>Prefered Unit - {{detail.preferredUnit}}</p>
-			<p>Number of occurences permitted - {{detail.occurence}}</p>
+	<ui>MIXS ID - {{ term.mixsId }}</ui>
+        {% for detail in term.details %}
+			<li><p>Structured Comment name - {{detail.structuredCommentName}}</p></li>
+			<li><p>Term display name - {{detail.label}}</p></li>
+			<li><p>Definition - {{detail.definition}}</p></li>
+			<li><p>Expected value - {{detail.expectedValue}}</p></li>
+			<li><p>Value syntax - {{detail.valueSyntax}}</p></li>
+			<li><p>Example - {detail.example}}</p></li>
+			<li><p>Prefered Unit - {{detail.preferredUnit}}</p></li>
+			<li><p>Number of occurences permitted - {{detail.occurence}}</p></li>
 		{% endfor %}
-</li>
 {% endfor %}
 
