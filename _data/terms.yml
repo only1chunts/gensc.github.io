@@ -1,5 +1,5 @@
-- mixsId: 1
-  item: "MIXS:000001"
+- mixsId: "MIXS:000001"
+  items:
   - label: "RDF name goes here"
     structuredCommentName: "made_up_name"
     definition: "something here"
@@ -8,8 +8,8 @@
     example:
     preferredUnit:	
     occurence:
-- mixsId: 10
-  item: "MIXS:000010"
+- mixsId: "MIXS:000010"
+  items:
   - label: "geographic location (country and/or sea, region)"
     structuredCommentName: "geo_loc_name"
     definition: "The geographical origin of the sample as defined by the country or sea name followed by specific region name. Country or sea names should be chosen from the INSDC country list (http://insdc.org/country.html), or the GAZ ontology (v 1.512) (http://purl.bioontology.org/ontology/GAZ)"
