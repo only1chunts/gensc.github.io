@@ -1,6 +1,6 @@
 {% include header.html %}
 
-<div> 	{% for term in site.checklists.mixsId %}
+<div> 	{% for term in site.checklists.core %}
         <div><h4>MIXS ID - {{ term.item }}</h4>
         {% for item in term.mixsId %}
 			<p>Structured Comment name - {{mixsId.structuredCommentName}}</p>
