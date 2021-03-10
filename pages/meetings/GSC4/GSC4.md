@@ -1,6 +1,6 @@
 ---
 layout: default
-title:GSC4
+title: "GSC4"
 category: meeting
 tag: [meeting]
 date:2007-06-06
