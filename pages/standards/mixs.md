@@ -11,7 +11,7 @@
 <br> Definition - {{term.details.definition}}
 <br> Expected value - {{term.details.expectedValue}}
 <br> Value syntax - {{term.details.valueSyntax}}
-<br> Example - {term.details.example}}
+<br> Example - {{term.details.example}}
 <br> Prefered Unit - {{term.details.preferredUnit}}
 <br> Number of occurences permitted - {{term.details.occurence}}
 <br>
