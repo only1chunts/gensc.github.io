@@ -2,12 +2,12 @@
 
 # MIxS checklist terms
 
-{% for term in site.data.terms %}
 
-<ul>
-# MIXS ID - {{ term.mixsId }}
-	
-        {% for detail in term.details %}
+
+<ul> {% for term in site.data.terms %}
+* MIXS ID - {{ term.mixsId }}
+<br>
+    <ul>{% for detail in term.details %}
 			* Structured Comment name - {{detail.structuredCommentName}}
 			* Term display name - {{detail.label}}
 			* Definition - {{detail.definition}}
@@ -16,7 +16,7 @@
 			* Example - {detail.example}}
 			* Prefered Unit - {{detail.preferredUnit}}
 			* Number of occurences permitted - {{detail.occurence}}
-			
+	</ul>	
 		{% endfor %}
 </ul>		
 {% endfor %}
