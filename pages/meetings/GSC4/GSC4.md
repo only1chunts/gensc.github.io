@@ -1,10 +1,3 @@
----
-layout: default
-title: "GSC4"
-category: meeting
-tag: [meeting]
-date:2007-06-06
----
 {% include header.html %}
 
 ![logo](GSC4_Header-master.gif)
