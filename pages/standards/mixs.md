@@ -6,7 +6,7 @@
 
         {% for term in site.checklists.mixsId %}
         <div>
-            <h4 class="schedule-table-heading">MIXS ID - {{ term.mixsId }}</h4>
+            <h4 class="schedule-table-heading">MIXS ID - {{ term.item }}</h4>
             <table class="table table-bordered table-striped table-hover table-responsive table-sm">
             {% for item in term.mixsId %}
                     <thead>
