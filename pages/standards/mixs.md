@@ -2,9 +2,9 @@
 
 # MIxS checklist terms
 
-{% for mixsId in site.data.core %}
-	<ui><h4>MIXS ID - {{ mixsId.item }}</h4></ui>
-        <li>{% for details in mixsId.item %}
+{% for term in site.data.terms %}
+	<ui><h4>MIXS ID - {{ term.item }}</h4></ui>
+        <li>{% for detail in term.item %}
 			<p>Structured Comment name - {{detail.structuredCommentName}}</p>
 			<p>Term display name - {{detail.label}}</p>
 			<p>Definition - {{detail.definition}}</p>
