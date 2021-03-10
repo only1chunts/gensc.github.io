@@ -3,7 +3,9 @@
 # MIxS checklist terms
 
 {% for term in site.data.terms %}
+
 	# MIXS ID - {{ term.mixsId }}
+	
         {% for detail in term.details %}
 			* Structured Comment name - {{detail.structuredCommentName}}
 			* Term display name - {{detail.label}}
