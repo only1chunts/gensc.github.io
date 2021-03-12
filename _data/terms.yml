@@ -763,3 +763,12 @@
   example: "95% ANI;85% AF; greedy incremental clustering"
   preferredUnit: 
   occurence: "1"
+- mixsId: "MIXS:0000086"
+  label: "vOTU sequence comparison approach"
+  structuredCommentName: "votu_seq_comp_appr"
+  definition: "Tool and thresholds used to compare sequences when computing "species-level" vOTUs"
+  expectedValue: "software name, version and relevant parameters"
+  valueSyntax: "{software};{version};{parameters}"
+  example: "blastn;2.6.0+;e-value cutoff: 0.001"
+  preferredUnit: 
+  occurence: "1"
