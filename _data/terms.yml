@@ -718,3 +718,12 @@
   example: "bbmap"
   preferredUnit: 
   occurence: "1"
+- mixsId: "MIXS:0000081"
+  label: "viral identification software"
+  structuredCommentName: "vir_ident_software"
+  definition: "Tool(s) used for the identification of UViG as a viral genome, software or protocol name including version number, parameters, and cutoffs used"
+  expectedValue: "software name, version and relevant parameters"
+  valueSyntax: "{software};{version};{parameters}"
+  example: "VirSorter; 1.0.4; Virome database, category 2"
+  preferredUnit: 
+  occurence: "1"
