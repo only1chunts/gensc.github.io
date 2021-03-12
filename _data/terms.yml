@@ -727,3 +727,12 @@
   example: "VirSorter; 1.0.4; Virome database, category 2"
   preferredUnit: 
   occurence: "1"
+- mixsId: "MIXS:0000082"
+  label: "predicted genome type"
+  structuredCommentName: "pred_genome_type"
+  definition: "Type of genome predicted for the UViG"
+  expectedValue: "enumeration"
+  valueSyntax: "[DNA|dsDNA|ssDNA|RNA|dsRNA|ssRNA|ssRNA (+)|ssRNA (-)|mixed|uncharacterized]"
+  example: "dsDNA"
+  preferredUnit: 
+  occurence: "1"
