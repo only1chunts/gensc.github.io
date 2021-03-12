@@ -30,21 +30,16 @@ The core MIxS team have developed a series environmental packages which expand o
 * Notes on using the ENVO terms in the MIxS context are provided [here](https://github.com/EnvironmentOntology/envo/wiki/Using-ENVO-with-MIxS).
 
 
-# MIxS checklist terms
+# MIxS terms
 
-Below we list the complete set of terms available accross all checklists and environmental packages. 
+[Here](standards/all-terms.html) we list all possible terms defined within the GSC MIxS checklists.
 
-{% for term in site.data.terms %}
-<h4>MIXS ID - {{ term.mixsId }} </h4>
-**Term display name -** {{term.label}}
-<br> **Structured Comment name -** {{term.structuredCommentName}}
-<br> **Definition -** {{term.definition}}
-<br> **Expected value -** {{term.expectedValue}}
-<br> **Value syntax -** {{term.valueSyntax}}
-<br> **Example -** {{term.example}}
-<br> **Prefered Unit -** {{term.preferredUnit}}
-<br> **Number of occurences permitted -** {{term.occurence}}
-<br>
-<br>		
-{% endfor %}
+Below are links to pages with only the terms listed as Mandatory for each of the individual checklists:
+MIGS_EU
+etc...
+
+Below are the Environmental package lists:
+air
+etc...
+
 
