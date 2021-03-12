@@ -754,3 +754,12 @@
   example: "independent sequence (UViG)"
   preferredUnit: 
   occurence: "1"
+- mixsId: "MIXS:0000085"
+  label: "vOTU classification approach"
+  structuredCommentName: "votu_class_appr"
+  definition: "Cutoffs and approach used when clustering new UViGs in “species-level” vOTUs. Note that results from standard 95% ANI / 85% AF clustering should be provided alongside vOTUS defined from another set of thresholds, even if the latter are the ones primarily used during the analysis"
+  expectedValue: "cutoffs and method used"
+  valueSyntax: "{ANI cutoff};{AF cutoff};{clustering method}"
+  example: "95% ANI;85% AF; greedy incremental clustering"
+  preferredUnit: 
+  occurence: "1"
