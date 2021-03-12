@@ -736,3 +736,12 @@
   example: "dsDNA"
   preferredUnit: 
   occurence: "1"
+- mixsId: "MIXS:0000083"
+  label: "predicted genome structure"
+  structuredCommentName: "pred_genome_struc"
+  definition: "Expected structure of the viral genome"
+  expectedValue: "enumeration"
+  valueSyntax: "[segmented|non-segmented|undetermined]"
+  example: "non-segmented"
+  preferredUnit: 
+  occurence: "1"
