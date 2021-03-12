@@ -1,13 +1,5 @@
 {% include header.html %}
 
-
-site map
-the page called "implimentation" should be the main Standards front page with the addition of some of the points below.
-
-the "current checklist" page should list the links to the various checklists, and packages as well as containing a link to the "Terms index" i.e. the complete list of terms by ID number
-
-
-
 # MIxS 
 
 
