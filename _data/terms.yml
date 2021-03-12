@@ -745,3 +745,12 @@
   example: "non-segmented"
   preferredUnit: 
   occurence: "1"
+- mixsId: "MIXS:0000084"
+  label: "detection type"
+  structuredCommentName: "detec_type"
+  definition: "Type of UViG detection"
+  expectedValue: "enumeration"
+  valueSyntax: "[independent sequence (UViG)|provirus (UpViG)]"
+  example: "independent sequence (UViG)"
+  preferredUnit: 
+  occurence: "1"
