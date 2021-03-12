@@ -14,7 +14,7 @@
   expectedValue: "type name"
   valueSyntax: "{text}"
   example: "biopsy, niskin bottle, push core"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000003"
   label: "isolation and growth condition"
@@ -23,7 +23,7 @@
   expectedValue: "PMID,DOI or URL"
   valueSyntax: "{PMID}|{DOI}|{URL}"
   example: "doi: 10.1016/j.syapm.2018.01.009"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000004"
   label: "submitted to insdc"
@@ -32,7 +32,7 @@
   expectedValue: "boolean"
   valueSyntax: "{boolean}"
   example: "yes"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000005"
   label: "contamination screening input"
@@ -41,7 +41,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[reads| contigs]"
   example: "contigs"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000006"
   label: "WGA amplification kit"
@@ -50,7 +50,7 @@
   expectedValue: "kit name"
   valueSyntax: "{text}"
   example: "qiagen repli-g"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000007"
   label: "investigation type"
@@ -59,7 +59,7 @@
   expectedValue: "eukaryote, bacteria_archaea, plasmid, virus, organelle, metagenome,mimarks-survey, mimarks-specimen, metatranscriptome, single amplified genome, metagenome-assembled genome, or uncultivated viral genomes"
   valueSyntax: "[eukaryote|bacteria_archaea|plasmid|virus|organelle|metagenome|metatranscriptome|mimarks-survey|mimarks-specimen|misag|mimag|miuvig]"
   example: "metagenome"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000008"
   label: "experimental factor"
@@ -68,7 +68,7 @@
   expectedValue: "text or EFO and/or OBI"
   valueSyntax: "{termLabel} {[termID]}|{text}"
   example: "time series design [EFO:EFO_0001779]"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000009"
   label: "geographic location (latitude and longitude)"
@@ -77,7 +77,7 @@
   expectedValue: "decimal degrees"
   valueSyntax: "{float} {float}"
   example: "50.586825 6.408977"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000010"
   label: "geographic location (country and/or sea,region)"
@@ -86,7 +86,7 @@
   expectedValue: "country or sea name (INSDC or GAZ);region(GAZ);specific location name"
   valueSyntax: "{term};{term};{text}"
   example: "Germany;North Rhine-Westphalia;Eifel National Park"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000011"
   label: "collection date"
@@ -95,7 +95,7 @@
   expectedValue: "date and time"
   valueSyntax: "{timestamp}"
   example: "2018-05-11T10:00:00+01:00"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000012"
   label: "broad-scale environmental context"
@@ -104,7 +104,7 @@
   expectedValue: "Add terms that identify the major environment type(s) where your sample was collected. Recommend subclasses of biome [ENVO:00000428]. Multiple terms can be separated by one or more pipes e.g.: mangrove biome [ENVO:01000181]|estuarine biome [ENVO:01000020]"
   valueSyntax: "{termLabel} {[termID]}"
   example: "forest biome [ENVO:01000174]"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000013"
   label: "local environmental context"
@@ -113,7 +113,7 @@
   expectedValue: "Add terms that identify environmental entities having causal influences upon the entity at time of sampling, multiple terms can be separated by pipes, e.g.: shoreline [ENVO:00000486]|intertidal zone [ENVO:00000316]"
   valueSyntax: "{termLabel} {[termID]}"
   example: "litter layer [ENVO:01000338]"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000014"
   label: "environmental medium"
@@ -122,7 +122,7 @@
   expectedValue: "Add terms that identify the material displaced by the entity at time of sampling. Recommend subclasses of environmental material [ENVO:00010483]. Multiple terms can be separated by pipes e.g.: estuarine water [ENVO:01000301]|estuarine mud [ENVO:00002160]"
   valueSyntax: "{termLabel} {[termID]}"
   example: "soil [ENVO:00001998]"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000015"
   label: "relationship to oxygen"
@@ -131,7 +131,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[aerobe|anaerobe|facultative|microaerophilic|microanaerobe|obligate aerobe|obligate anaerobe]"
   example: "aerobe"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000016"
   label: "sample material processing"
@@ -140,7 +140,7 @@
   expectedValue: "text or OBI"
   valueSyntax: "{text}|{termLabel} {[termID]}"
   example: "filtering of seawater, storing samples in ethanol"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000017"
   label: "size fraction selected"
@@ -149,7 +149,7 @@
   expectedValue: "filter size value range"
   valueSyntax: "{float}-{float} {unit}"
   example: "0-0.22 micrometer"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000018"
   label: "geographic location (depth)"
@@ -158,7 +158,7 @@
   expectedValue: "-"
   valueSyntax: "-"
   example: "0"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "0"
 - mixsId: "MIXS:0000019"
   label: "environmental package"
@@ -167,7 +167,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[air|built environment|host-associated|human-associated|human-skin|human-oral|human-gut|human-vaginal|hydrocarbon resources-cores|hydrocarbon resources-fluids/swabs|microbial mat/biofilm|misc environment|plant-associated|sediment|soil|wastewater/sludge|water]"
   example: "soil"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000020"
   label: "subspecific genetic lineage"
@@ -176,7 +176,7 @@
   expectedValue: "genetic lineage below lowest rank of NCBI taxonomy, which is subspecies, e.g. serovar, biotype, ecotype"
   valueSyntax: "{rank name}:{text}"
   example: "serovar:Newport"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000021"
   label: "ploidy"
@@ -185,7 +185,7 @@
   expectedValue: "PATO"
   valueSyntax: "{termLabel} {[termID]}"
   example: "allopolyploidy [PATO:0001379]"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000022"
   label: "number of replicons"
@@ -194,7 +194,7 @@
   expectedValue: "for eukaryotes and bacteria: chromosomes (haploid count); for viruses: segments"
   valueSyntax: "{integer}"
   example: "2"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000023"
   label: "extrachromosomal elements"
@@ -203,7 +203,7 @@
   expectedValue: "number of extrachromosmal elements"
   valueSyntax: "{integer}"
   example: "5"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000024"
   label: "estimated size"
@@ -212,7 +212,7 @@
   expectedValue: "number of base pairs"
   valueSyntax: "{integer} bp"
   example: "300000 bp"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000025"
   label: "reference for biomaterial"
@@ -221,7 +221,7 @@
   expectedValue: "PMID, DOI or URL"
   valueSyntax: "{PMID}|{DOI}|{URL}"
   example: "doi:10.1016/j.syapm.2018.01.009"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000026"
   label: "source material identifiers"
@@ -230,7 +230,7 @@
   expectedValue: "for cultures of microorganisms: identifiers for two culture collections; for other material a unique arbitrary identifer"
   valueSyntax: "{text}"
   example: "MPI012345"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "m"
 - mixsId: "MIXS:0000027"
   label: "known pathogenicity"
@@ -239,7 +239,7 @@
   expectedValue: "names of organisms that the entity is pathogenic to"
   valueSyntax: "{text}"
   example: "human, animal, plant, fungi, bacteria"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000028"
   label: "observed biotic relationship"
@@ -248,7 +248,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[free living|parasitism|commensalism|symbiotic|mutualism]"
   example: "free living"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000029"
   label: "specific host"
@@ -257,7 +257,7 @@
   expectedValue: "host taxid, unknown, environmental"
   valueSyntax: "{NCBI taxid}|{text}"
   example: "9606"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000030"
   label: "host specificity or range"
@@ -266,7 +266,7 @@
   expectedValue: "NCBI taxid"
   valueSyntax: "{integer}"
   example: "9606"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000031"
   label: "health or disease status of specific host at time of collection"
@@ -275,7 +275,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[healthy|diseased|dead|disease-free|undetermined|recovering|resolving|pre-existing condition|pathological|life threatening|congenital]"
   example: "dead"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000032"
   label: "trophic level"
@@ -284,7 +284,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[autotroph|carboxydotroph|chemoautotroph|chemoheterotroph|chemolithoautotroph|chemolithotroph|chemoorganoheterotroph|chemoorganotroph|chemosynthetic|chemotroph|copiotroph|diazotroph|facultative|autotroph|heterotroph|lithoautotroph|lithoheterotroph|lithotroph|methanotroph|methylotroph|mixotroph|obligate|chemoautolithotroph|oligotroph|organoheterotroph|organotroph|photoautotroph|photoheterotroph|photolithoautotroph|photolithotroph|photosynthetic|phototroph]"
   example: "heterotroph"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000033"
   label: "propagation"
@@ -293,7 +293,7 @@
   expectedValue: "for virus: lytic, lysogenic, temperate, obligately lytic; for plasmid: incompatibility group; for eukaryote: asexual, sexual"
   valueSyntax: "{text}"
   example: "lytic"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000034"
   label: "encoded traits"
@@ -302,7 +302,7 @@
   expectedValue: "for plasmid: antibiotic resistance; for phage: converting genes"
   valueSyntax: "{text}"
   example: "beta-lactamase class A"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000035"
   label: "source of UViGs"
@@ -311,7 +311,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[metagenome (not viral targeted)|viral fraction metagenome (virome)|sequence-targeted metagenome|metatranscriptome (not viral targeted)|viral fraction RNA metagenome (RNA virome)|sequence-targeted RNA metagenome|microbial single amplified genome (SAG)|viral single amplified genome (vSAG)|isolate microbial genome|other]"
   example: "viral fraction metagenome (virome)"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000036"
   label: "virus enrichment approach"
@@ -320,7 +320,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[filtration|ultrafiltration|centrifugation|ultracentrifugation|PEG Precipitation|FeCl Precipitation|CsCl density gradient|DNAse|RNAse|targeted sequence capture|other|none]"
   example: "filtration + FeCl Precipitation + ultracentrifugation + DNAse"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000037"
   label: "nucleic acid extraction"
@@ -329,7 +329,7 @@
   expectedValue: "PMID, DOI or URL"
   valueSyntax: "{PMID}|{DOI}|{URL}"
   example: "https://mobio.com/media/wysiwyg/pdfs/protocols/12888.pdf"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000038"
   label: "nucleic acid amplification"
@@ -338,7 +338,7 @@
   expectedValue: "PMID, DOI or URL"
   valueSyntax: "{PMID}|{DOI}|{URL}"
   example: "https://phylogenomics.me/protocols/16s-pcr-protocol/"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000039"
   label: "library size"
@@ -347,7 +347,7 @@
   expectedValue: "number of clones"
   valueSyntax: "{integer}"
   example: "50"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000040"
   label: "library reads sequenced"
@@ -356,7 +356,7 @@
   expectedValue: "number of reads sequenced"
   valueSyntax: "{integer}"
   example: "20"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000041"
   label: "library layout"
@@ -365,7 +365,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[paired|single|vector|other]"
   example: "paired"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000042"
   label: "library vector"
@@ -374,7 +374,7 @@
   expectedValue: "vector"
   valueSyntax: "{text}"
   example: "Bacteriophage P1"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000043"
   label: "library screening strategy"
@@ -383,7 +383,7 @@
   expectedValue: "screening strategy name"
   valueSyntax: "{text}"
   example: "enriched, screened, normalized"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000044"
   label: "target gene"
@@ -392,7 +392,7 @@
   expectedValue: "gene name"
   valueSyntax: "{text}"
   example: "16S rRNA, 18S rRNA, nif, amoA, rpo"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000045"
   label: "target subfragment"
@@ -401,7 +401,7 @@
   expectedValue: "gene fragment name"
   valueSyntax: "{text}"
   example: "V6, V9, ITS"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000046"
   label: "pcr primers"
@@ -410,7 +410,7 @@
   expectedValue: "FWD: forward primer sequence;REV:reverse primer sequence"
   valueSyntax: "FWD:{dna};REV:{dna}"
   example: "FWD:GTGCCAGCMGCCGCGGTAA;REV:GGACTACHVGGGTWTCTAAT"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000047"
   label: "multiplex identifiers"
@@ -419,7 +419,7 @@
   expectedValue: "multiplex identifier sequence"
   valueSyntax: "{dna}"
   example: "GTGAATAT"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000048"
   label: "adapters"
@@ -428,7 +428,7 @@
   expectedValue: "adapter A and B sequence"
   valueSyntax: "{dna};{dna}"
   example: "AATGATACGGCGACCACCGAGATCTACACGCT;CAAGCAGAAGACGGCATACGAGAT"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000049"
   label: "pcr conditions"
@@ -437,7 +437,7 @@
   expectedValue: "initial denaturation:degrees_minutes;annealing:degrees_minutes;elongation:degrees_minutes;final elongation:degrees_minutes;total cycles"
   valueSyntax: "initial denaturation:degrees_minutes;annealing:degrees_minutes;elongation:degrees_minutes;final elongation:degrees_minutes;total cycles"
   example: "initial denaturation:94_3;annealing:50_1;elongation:72_1.5;final elongation:72_10;35"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000050"
   label: "sequencing method"
@@ -446,7 +446,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[MinION|GridION|PromethION|454 GS|454 GS 20|454 GS FLX|454 GS FLX+|454 GS FLX Titanium|454 GS Junior|Illumina Genome Analyzer|Illumina Genome Analyzer II|Illumina Genome Analyzer IIx|Illumina HiSeq 4000|Illumina HiSeq 3000|Illumina HiSeq 2500|Illumina HiSeq 2000|Illumina HiSeq 1500|Illumina HiSeq 1000|Illumina HiScanSQ|Illumina MiSeq|Illumina HiSeq X Five|Illumina HiSeq X Ten|Illumina NextSeq 500|Illumina NextSeq 550|AB SOLiD System|AB SOLiD System 2.0|AB SOLiD System 3.0|AB SOLiD 3 Plus System|AB SOLiD 4 System|AB SOLiD 4hq System|AB SOLiD PI System|AB 5500 Genetic Analyzer|AB 5500xl Genetic Analyzer|AB 5500xl-W Genetic Analysis System|Ion Torrent PGM|Ion Torrent Proton|Ion Torrent S5|Ion Torrent S5 XL|PacBio RS|PacBio RS II|Sequel|AB 3730xL Genetic Analyzer|AB 3730 Genetic Analyzer|AB 3500xL Genetic Analyzer|AB 3500 Genetic Analyzer|AB 3130xL Genetic Analyzer|AB 3130 Genetic Analyzer|AB 310 Genetic Analyzer|BGISEQ-500]"
   example: "Illumina HiSeq 1500"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000051"
   label: "sequence quality check"
@@ -455,7 +455,7 @@
   expectedValue: "none or manually edited"
   valueSyntax: "[none|manually edited]"
   example: "none"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000052"
   label: "chimera check"
@@ -464,7 +464,7 @@
   expectedValue: "name and version of software, parameters used"
   valueSyntax: "{software};{version};{parameters}"
   example: "uchime;v4.1;default parameters"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000053"
   label: "taxonomic identity marker"
@@ -473,7 +473,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[16S rRNA gene|multi-marker approach|other]"
   example: "other: rpoB gene"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000054"
   label: "single cell or viral particle lysis kit protocol"
@@ -482,7 +482,7 @@
   expectedValue: "kit, protocol name"
   valueSyntax: "{text}"
   example: "ambion single cell lysis kit"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000055"
   label: "WGA amplification approach"
@@ -491,7 +491,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[pcr based|mda based]"
   example: "mda based"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000056"
   label: "assembly quality"
@@ -500,7 +500,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[Finished genome|High-quality draft genome|Medium-quality draft genome|Low-quality draft genome|Genome fragment(s)]"
   example: "High-quality draft genome"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000057"
   label: "assembly name"
@@ -509,7 +509,7 @@
   expectedValue: "name and version of assembly"
   valueSyntax: "{text} {text}"
   example: "HuRef, JCVI_ISG_i3_1.0"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000058"
   label: "assembly software"
@@ -518,7 +518,7 @@
   expectedValue: "name and version of software, parameters used"
   valueSyntax: "{software};{version};{parameters}"
   example: "metaSPAdes;3.11.0;kmer set 21,33,55,77,99,121, default parameters otherwise"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "m"
 - mixsId: "MIXS:0000059"
   label: "annotation"
@@ -527,7 +527,7 @@
   expectedValue: "name of tool or pipeline used, or annotation source description"
   valueSyntax: "{text}"
   example: "prokka"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000060"
   label: "number of contigs"
@@ -536,7 +536,7 @@
   expectedValue: "value"
   valueSyntax: "{integer}"
   example: "40"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000061"
   label: "feature prediction"
@@ -545,7 +545,7 @@
   expectedValue: "names and versions of software(s), parameters used"
   valueSyntax: "{software};{version};{parameters}"
   example: "Prodigal;2.6.3;default parameters"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000062"
   label: "reference database(s)"
@@ -554,7 +554,7 @@
   expectedValue: "names, versions, and references of databases"
   valueSyntax: "{database};{version};{reference}"
   example: "pVOGs;5;http://dmk-brain.ecn.uiowa.edu/pVOGs/ Grazziotin et al. 2017 doi:10.1093/nar/gkw975"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000063"
   label: "similarity search method"
@@ -563,7 +563,7 @@
   expectedValue: "names and versions of software(s), parameters used"
   valueSyntax: "{software};{version};{parameters}"
   example: "HMMER3;3.1b2;hmmsearch, cutoff of 50 on score"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000064"
   label: "taxonomic classification"
@@ -572,7 +572,7 @@
   expectedValue: "classification method, database name, and other parameters"
   valueSyntax: "{text}"
   example: "vConTACT vContact2 (references from NCBI RefSeq v83, genus rank classification, default parameters)"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000065"
   label: "16S recovered"
@@ -581,7 +581,7 @@
   expectedValue: "boolean"
   valueSyntax: "{boolean}"
   example: "yes"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000066"
   label: "16S recovery software"
@@ -590,7 +590,7 @@
   expectedValue: "names and versions of software(s), parameters used"
   valueSyntax: "{software};{version};{parameters}"
   example: "rambl;v2;default parameters"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000067"
   label: "number of standard tRNAs extracted"
@@ -599,7 +599,7 @@
   expectedValue: "value from 0-21"
   valueSyntax: "{integer}"
   example: "18"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000068"
   label: "tRNA extraction software"
@@ -608,7 +608,7 @@
   expectedValue: "names and versions of software(s), parameters used"
   valueSyntax: "{software};{version};{parameters}"
   example: "infernal;v2;default parameters"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000069"
   label: "completeness score"
@@ -617,7 +617,7 @@
   expectedValue: "quality;percent completeness"
   valueSyntax: "[high|med|low];{percentage}"
   example: "med;60%"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000070"
   label: "completeness software"
@@ -626,7 +626,7 @@
   expectedValue: "names and versions of software(s) used"
   valueSyntax: "{software};{version}"
   example: "checkm"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000071"
   label: "completeness approach"
@@ -635,7 +635,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[marker gene|reference based|other]"
   example: "other: UViG length compared to the average length of reference genomes from the P22virus genus (NCBI RefSeq v83)"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000072"
   label: "contamination score"
@@ -644,7 +644,7 @@
   expectedValue: "value"
   valueSyntax: "{float} percentage"
   example: "0.01"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000073"
   label: "contamination screening parameters"
@@ -653,7 +653,7 @@
   expectedValue: "enumeration;value or name"
   valueSyntax: "[ref db|kmer|coverage|combination];{text|integer}"
   example: "kmer"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000074"
   label: "decontamination software"
@@ -662,7 +662,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[checkm/refinem|anvi'o|prodege|bbtools:decontaminate.sh|acdc|combination]"
   example: "anvi'o"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000075"
   label: "sorting technology"
@@ -671,7 +671,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[flow cytometric cell sorting|microfluidics|lazer-tweezing|optical manipulation|micromanipulation|other]"
   example: "optical manipulation"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000076"
   label: "single cell or viral particle lysis approach"
@@ -680,7 +680,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[chemical|enzymatic|physical|combination]"
   example: "enzymatic"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000077"
   label: "binning parameters"
@@ -689,7 +689,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[homology search|kmer|coverage|codon usage|combination]"
   example: "coverage and kmer"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000078"
   label: "binning software"
@@ -698,7 +698,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[metabat|maxbin|concoct|groupm|esom|metawatt|combination|other]"
   example: "concoct and maxbin"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000079"
   label: "reassembly post binning"
@@ -707,7 +707,7 @@
   expectedValue: "boolean"
   valueSyntax: "{boolean}"
   example: "no"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000080"
   label: "MAG coverage software"
@@ -716,7 +716,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[bwa|bbmap|bowtie|other]"
   example: "bbmap"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000081"
   label: "viral identification software"
@@ -725,7 +725,7 @@
   expectedValue: "software name, version and relevant parameters"
   valueSyntax: "{software};{version};{parameters}"
   example: "VirSorter; 1.0.4; Virome database, category 2"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000082"
   label: "predicted genome type"
@@ -734,7 +734,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[DNA|dsDNA|ssDNA|RNA|dsRNA|ssRNA|ssRNA (+)|ssRNA (-)|mixed|uncharacterized]"
   example: "dsDNA"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000083"
   label: "predicted genome structure"
@@ -743,7 +743,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[segmented|non-segmented|undetermined]"
   example: "non-segmented"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000084"
   label: "detection type"
@@ -752,7 +752,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[independent sequence (UViG)|provirus (UpViG)]"
   example: "independent sequence (UViG)"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000085"
   label: "vOTU classification approach"
@@ -761,7 +761,7 @@
   expectedValue: "cutoffs and method used"
   valueSyntax: "{ANI cutoff};{AF cutoff};{clustering method}"
   example: "95% ANI;85% AF; greedy incremental clustering"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000086"
   label: "vOTU sequence comparison approach"
@@ -770,7 +770,7 @@
   expectedValue: "software name, version and relevant parameters"
   valueSyntax: "{software};{version};{parameters}"
   example: "blastn;2.6.0+;e-value cutoff: 0.001"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000087"
   label: "vOTU database"
@@ -779,7 +779,7 @@
   expectedValue: "database and version"
   valueSyntax: "{database};{version}"
   example: "NCBI Viral RefSeq;83"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000088"
   label: "host prediction approach"
@@ -788,7 +788,7 @@
   expectedValue: "enumeration"
   valueSyntax: "[provirus|host sequence similarity|CRISPR spacer match|kmer similarity|co-occurrence|combination|other]"
   example: "CRISPR spacer match"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000089"
   label: "host prediction estimated accuracy"
@@ -797,7 +797,7 @@
   expectedValue: "false discovery rate"
   valueSyntax: "{text}"
   example: "CRISPR spacer match: 0 or 1 mismatches, estimated 8% FDR at the host genus rank (Edwards et al. 2016 doi:10.1093/femsre/fuv048)"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000090"
   label: "relevant standard operating procedures"
@@ -806,7 +806,7 @@
   expectedValue: "reference to SOP"
   valueSyntax: "{PMID}|{DOI}|{URL}"
   example: "http://press.igsb.anl.gov/earthmicrobiome/protocols-and-standards/its/"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "m"
 - mixsId: "MIXS:0000091"
   label: "relevant electronic resources"
@@ -815,7 +815,7 @@
   expectedValue: "URL"
   valueSyntax: "{URL}"
   example: "http://www.earthmicrobiome.org/"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "m"
 - mixsId: "MIXS:0000092"
   label: "project name"
@@ -824,7 +824,7 @@
   expectedValue: "0"
   valueSyntax: "{text}"
   example: "Forest soil metagenome"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "1"
 - mixsId: "MIXS:0000093"
   label: "elevation"
@@ -833,7 +833,7 @@
   expectedValue: "measurement value"
   valueSyntax: "{float} {unit}"
   example: "100 meter"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "0"
 - mixsId: "MIXS:0000094"
   label: "altitude"
@@ -842,5 +842,5 @@
   expectedValue: "measurement value"
   valueSyntax: "{float} {unit}"
   example: "100 meter"
-  preferredUnit: ""
+  preferredUnit: 
   occurence: "0"
