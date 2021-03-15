@@ -7,7 +7,6 @@ markdown: kramdown
 theme: jekyll-theme-dinky
 plugins:
   - jekyll-gist
-iis_slider_array: []
 # Twitter username (used by jekyll-seo-tag)
 twitter:
   username: genomestandards

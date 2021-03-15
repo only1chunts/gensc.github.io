@@ -6,12 +6,7 @@ For the live website, please visit <a href="https://gensc.org/">https://gensc.or
 <br>
 
 
-{% slider %}
-  [![The group photo at GSC19 Brisbane.](images/GSC19-Group-outside-lightened-1024x336.jpg)](pages/meetings/GSC19.html)
-  [![The GSC board members](images/the-board.png)](pages/about/board-members.html)
-  [![The logo](images/cropped-full_gsc_logo_sml.png)](www.gensc.org)
-{% endslider %}
-
+{% include carousel.html height="100" unit="%" duration="5" %}
 
 
 # Genomic Standards Consortium
