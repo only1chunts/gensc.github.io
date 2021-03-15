@@ -6,7 +6,7 @@ For the live website, please visit <a href="https://gensc.org/">https://gensc.or
 <br>
 
 
-{% include carousel.html height="100" unit="%" duration="5" %}
+{% include carousel.html height="50" unit="%" duration="5" %}
 
 
 # Genomic Standards Consortium
