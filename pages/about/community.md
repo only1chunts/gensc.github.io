@@ -8,12 +8,11 @@ The Genomics Standards Consortium is a volunteeer organization made up of people
 ## GSC standards adopters
 
 The following organisations are actively using and promoting the use of GSC's stanards, included MIxS, MIGO, etc.:
-- [EBI]()
-- [DDBJ]()
-- [NCBI]()
+- [EBI](https://www.ebi.ac.uk/ena/browser/checklists){:target="_blank" rel="noopener"}
+- [DDBJ](https://www.ddbj.nig.ac.jp/biosample/submission-e.html#MIxS_Sample){:target="_blank" rel="noopener"}
+- [NCBI](https://submit.ncbi.nlm.nih.gov/biosample/template/){:target="_blank" rel="noopener"}
 - [GigaDB](http://www.gigadb.org){:target="_blank" rel="noopener"}
-- [NMDC]()
-- [GOLD]()
+- [NMDC](https://microbiomedata.github.io/nmdc-metadata/Metadata_Documentation_Overview/){:target="_blank" rel="noopener"}
 
 If your project is using a MIxS standard and is not on this list, please let us know by creating an issue at (link to website issue tracker).
 
