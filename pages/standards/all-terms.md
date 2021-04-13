@@ -3,6 +3,7 @@
 # soil package terms
 {% for row in site.data.soil %}
 <h4>MIXS ID - {{ row.mixsId }} </h4>
+<br> **Example -** {{row.requirement}}
 {% endfor %}
 
 
