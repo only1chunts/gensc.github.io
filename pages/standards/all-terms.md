@@ -1,8 +1,15 @@
 {% include header.html %}
 
+# soil package terms
+{% for row in site.data.soil %}
+<h4>MIXS ID - {{ soil.mixsId }} </h4>
+{% endfor %}
+
+
 # GSC defined terms
 
 Below we list the complete set of terms available accross all checklists and environmental packages. 
+
 
 {% for term in site.data.terms %}
 <h4>MIXS ID - {{ term.mixsId }} </h4>
