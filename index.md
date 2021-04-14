@@ -9,7 +9,7 @@ For the live website, please visit <a href="https://gensc.org/">https://gensc.or
 {% include carousel.html height="50" unit="%" duration="5" %}
 
 
-# testing search again
+# testing search
 
 {% include search.html %}
 
