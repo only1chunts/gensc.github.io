@@ -1,19 +1,13 @@
-        [
+[
+  {% for post in site.posts %}
+    {
 
-            {
-              "title"    : "Meetings",
-              "url"      : "/pages/meetings.html",
-              "category" : "cards",
-              "image"    : "materialized.png",
-              "dev"      : "lpsandaruwan"
-            }
-            ,
+      "title"    : "{{ post.title | escape }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "date"     : "{{ post.date }}"
 
-            {
-              "title"    : "Time-machine",
-              "url"      : "/time-machine/",
-              "category" : "onepage",
-              "image"    : "time-machine.png",
-              "dev"      : "pages-themes"
-            }
-        ]
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]		
