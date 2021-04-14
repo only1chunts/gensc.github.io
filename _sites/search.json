@@ -1,8 +1,8 @@
         [
 
             {
-              "title"    : "Materialized",
-              "url"      : "/materialized/",
+              "title"    : "Meetings",
+              "url"      : "/pages/meetings.html",
               "category" : "cards",
               "image"    : "materialized.png",
               "dev"      : "lpsandaruwan"
