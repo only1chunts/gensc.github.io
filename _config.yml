@@ -10,3 +10,9 @@ plugins:
 # Twitter username (used by jekyll-seo-tag)
 twitter:
   username: genomestandards
+# Search settings
+tipue_search:
+  include:
+    pages: true
+  exclude:
+    files: [index.md, search.html]
