@@ -1,6 +1,6 @@
 {% include header.html %}
 
-
+frefresh
  
 {% include search-terms.html %}
 

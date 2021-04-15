@@ -1093,9 +1093,9 @@ $('#txt-search').keyup(function(){
 			  $.each(data, function(key, val){
 				if ((val.mixsId.search(regex) != -1) || (val.label.search(regex) != -1) || (val.definition.search(regex) != -1)) {
 				  output += '<h5>' + val.mixsId + '</h5>'; 
-                  output += '<em>URL:</em>' + val.url + '</br>'; 
-				  output += '<p> Term name:' + val.label + '</p>'; 
-				  output += '<p> Definition:' + val.definition + '</p>'; 
+                  output += '<b>URL:</b>' + val.url + '</br>'; 
+				  output += '<b>Term name:</b>' + val.label + '</br>'; 
+				  output += '<b> Definition:</b>' + val.definition + '</br>'; 
 				  if(count%2 == 0){
 					output += '</div><div class="row">'
 				  }
