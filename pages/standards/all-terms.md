@@ -1,6 +1,5 @@
 {% include header.html %}
 
-# testing terms search 1
 
 {% include search-terms.html %}
 
