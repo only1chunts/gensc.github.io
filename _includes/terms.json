@@ -3670,17 +3670,5 @@
     "preferredUnit":"",
     "occurence":"1",
     "url":"https://w3id.org/gensc/terms/MIXS_0000322"
-  },
-  {
-    "mixsId":"MIXS:0000866",
-    "structuredCommentName":"host_body_habitat",
-    "label":"host body habitat",
-    "definition":"Original body habitat where the sample was obtained from",
-    "expectedValue":"free text",
-    "valueSyntax":"{text}",
-    "example":"nasopharynx",
-    "preferredUnit":"",
-    "occurence":"1",
-    "url":"https://w3id.org/gensc/terms/MIXS_0000866"
   }
 ]
