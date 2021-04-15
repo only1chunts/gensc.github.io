@@ -35,7 +35,7 @@
     "example": "5 liter",
     "preferredUnit": "millliter, gram, milligram, liter",
     "occurence": "1",
-    "section": "sample specific metadata"
+    "url": " https://w3id.org/gensc/terms/MIXS_0000001"
   },
   {
     "mixsId": "MIXS:0000002",
@@ -1079,9 +1079,10 @@ $('#txt-search').keyup(function(){
             var output = '<div class="row">';
             var count = 1;
 			  $.each(data, function(key, val){
-				if ((val.mixsId.search(regex) != -1) || (val.label.search(regex) != -1)) {
-				  output += '<h5>' + val.mixsId + '</h5>';
+				if ((val.mixsId.search(regex) != -1) || (val.label.search(regex) != -1) || (val.definition.search(regex) != -1)) {
+				  output += <a href='+ val.url +' target=_blank>'<h5>' + val.mixsId + '</h5>'</a>;
 				  output += '<p>' + val.label + '</p>';
+				  output += '<p>' + val.definition + '</p>';
 				  if(count%2 == 0){
 					output += '</div><div class="row">'
 				  }
