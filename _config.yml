@@ -11,11 +11,3 @@ plugins:
 # Twitter username (used by jekyll-seo-tag)
 twitter:
   username: genomestandards
-# Search settings
-tipue_search:
-  include: 
-    files: [pages/about.md, page/blod.md, pages/contact.md, pages/meetings.md, pages/membership.md, pages/projects.md]
-    categories: [news, meetings]
-    pages: true
-  exclude:
-    files: [index.md, search.html]
