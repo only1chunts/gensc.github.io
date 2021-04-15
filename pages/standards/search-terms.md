@@ -11,7 +11,7 @@
 	<div id="header"></div>
 	<div>
 	There are over 600 individual terms that have been defined by GSC over the years during the development of the multiple standards and associatted packages. Finding details of individual terms can be tricky if you do not know the specific name or ID, for this reason we provide a simple search tool here.<br>
-	The Label, ID and definitions are all indexed for search.<br>
+	The term name, ID and, definitions are all indexed for search.<br><br>
 	</div>
 	<form role="form">
         <div class="form-group">
@@ -43,9 +43,13 @@ $('#txt-search').keyup(function(){
 			  $.each(data, function(key, val){
 				if ((val.mixsId.search(regex) != -1) || (val.label.search(regex) != -1) || (val.definition.search(regex) != -1)) {
 				  output += '<h5>' +val.mixsId+ '</h5>'; 
-				  output += '<strong>URL: </strong>' + val.url + '</br>';
 				  output += '<strong>Term name: </strong>' + val.label + '</br>'; 
-				  output += '<strong>Definition: </strong>' + val.definition + '</br>'; 
+				  output += '<strong>URL: </strong>' + val.url + '</br>';
+				  output += '<strong>Definition: </strong>' + val.definition + '</br>';
+				  output += '<strong>Expected value: </strong>' + val.expectedValue + '</br>'; 
+				  output += '<strong>Value syntax: </strong>' + val.valueSyntax + '</br>'; 
+				  output += '<strong>Example: </strong>' + val.example + '</br>';
+				  output += '<strong>Preferred unit: </strong>' + val.preferredUnit + '</br>';
 				  if(count%2 == 0){
 					output += '</div><div class="row">'
 				  }
