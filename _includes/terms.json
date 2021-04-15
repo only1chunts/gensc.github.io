@@ -7202,7 +7202,7 @@
   {
     "mixsId":"MIXS:0000322",
     "structuredCommentName":"sieving",
-    "label":"composite design sieving (if any)",
+    "label":"composite design sieving",
     "definition":"Collection design of pooled samples and or sieve size and amount of sample sieved",
     "expectedValue":"design name and or size or amount",
     "valueSyntax":"{{text}|{float} {unit}};{float} {unit}",
