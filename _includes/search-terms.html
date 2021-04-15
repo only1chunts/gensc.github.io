@@ -130,6 +130,7 @@
     "example": "50.586825 6.408977",
     "preferredUnit": null,
     "occurence": "1"
+	"url": " https://w3id.org/gensc/terms/MIXS_0000009"
   },
   {
     "mixsId": "MIXS:0000010",
@@ -141,7 +142,8 @@
     "example": "Germany;North Rhine-Westphalia;Eifel National Park",
     "preferredUnit": null,
     "occurence": "1"
-  },
+	"url": " https://w3id.org/gensc/terms/MIXS_0000010"
+	},
   {
     "mixsId": "MIXS:0000011",
     "label": "collection date",
@@ -152,6 +154,7 @@
     "example": "2018-05-11T10:00:00+01:00",
     "preferredUnit": null,
     "occurence": "1"
+	"url": " https://w3id.org/gensc/terms/MIXS_0000011"
   },
   {
     "mixsId": "MIXS:0000012",
@@ -163,6 +166,7 @@
     "example": "forest biome [ENVO:01000174]",
     "preferredUnit": null,
     "occurence": "1"
+	"url": " https://w3id.org/gensc/terms/MIXS_0000012"
   },
   {
     "mixsId": "MIXS:0000013",
@@ -229,6 +233,7 @@
     "example": "0",
     "preferredUnit": null,
     "occurence": "0"
+	"url": " https://w3id.org/gensc/terms/MIXS_0000018"
   },
   {
     "mixsId": "MIXS:0000019",
@@ -1080,7 +1085,7 @@ $('#txt-search').keyup(function(){
             var count = 1;
 			  $.each(data, function(key, val){
 				if ((val.mixsId.search(regex) != -1) || (val.label.search(regex) != -1) || (val.definition.search(regex) != -1)) {
-				  output += 'h5' + val.mixsId + 'h5'.link('+ val.url +');
+				  output += 'h5' val.mixsId.link('+ val.url +') 'h5';
 				  output += '<p>' + val.label + '</p>';
 				  output += '<p>' + val.definition + '</p>';
 				  if(count%2 == 0){
