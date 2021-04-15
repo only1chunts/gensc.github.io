@@ -1080,7 +1080,7 @@ $('#txt-search').keyup(function(){
             var count = 1;
 			  $.each(data, function(key, val){
 				if ((val.mixsId.search(regex) != -1) || (val.label.search(regex) != -1) || (val.definition.search(regex) != -1)) {
-				  output += document.write('+ val.mixsId +'.link('+val.url +'));
+				  output += ('+ val.mixsId +'.link('+val.url +'));
 				  output += '<p>' + val.label + '</p>';
 				  output += '<p>' + val.definition + '</p>';
 				  if(count%2 == 0){
