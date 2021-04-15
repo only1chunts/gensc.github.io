@@ -1093,8 +1093,8 @@ $('#txt-search').keyup(function(){
 			  $.each(data, function(key, val){
 				if ((val.mixsId.search(regex) != -1) || (val.label.search(regex) != -1) || (val.definition.search(regex) != -1)) {
 				  output += '<h5>' + val.mixsId + '</h5>';
-				  output += + val.url + '</br>'; 
-				  output += + val.label + '</br>';
+				  output += + val.url + ; 
+				  output += + val.label + ;
 				  output += '<p>' + val.definition + '</p>';
 				  if(count%2 == 0){
 					output += '</div><div class="row">'
