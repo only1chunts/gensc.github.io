@@ -1,5 +1,10 @@
 {% include header.html %}
 
+# testing terms search 1
+
+{% include search-terms.html %}
+
+
 # soil package terms
 {% for row in site.data.soil %}
 <h4>MIXS ID - {{row.MIXS-ID}} </h4>
