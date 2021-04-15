@@ -1092,10 +1092,15 @@ $('#txt-search').keyup(function(){
             var count = 1;
 			  $.each(data, function(key, val){
 				if ((val.mixsId.search(regex) != -1) || (val.label.search(regex) != -1) || (val.definition.search(regex) != -1)) {
-				  output += '<h5>' + val.mixsId + '</h5>'; 
+				  output += '<h5>' + val.mixsId.link(+val.url+) + '</h5>'; 
                   output += '<b>URL:</b>' + val.url + '</br>'; 
 				  output += '<b>Term name:</b>' + val.label + '</br>'; 
 				  output += '<b> Definition:</b>' + val.definition + '</br>'; 
+				  
+<!-- working				  output += '<h5>' + val.mixsId + '</h5>'; -->
+<!-- working                  output += '<b>URL:</b>' + val.url + '</br>'; -->
+<!-- working				  output += '<b>Term name:</b>' + val.label + '</br>'; -->
+<!-- working				  output += '<b> Definition:</b>' + val.definition + '</br>'; -->
 				  if(count%2 == 0){
 					output += '</div><div class="row">'
 				  }
