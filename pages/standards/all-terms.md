@@ -1,9 +1,5 @@
 {% include header.html %}
 
-refrresh
- 
-{% include search-terms.html %}
-
 
 <!-- # soil package terms
 {% for row in site.data.soil %}
