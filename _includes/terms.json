@@ -3622,5 +3622,41 @@
     "preferredUnit":"",
     "occurence":"1",
     "url":"https://w3id.org/gensc/terms/MIXS_0000990"
+  },
+  {
+    "mixsId":"MIXS:0001082",
+    "structuredCommentName":"horizon",
+    "label":"horizon",
+    "definition":"Specific layer in the land area which measures parallel to the soil surface and possesses physical characteristics which differ from the layers above and beneath",
+    "expectedValue":"enumeration",
+    "valueSyntax":"[O horizon|A horizon|E horizon|B horizon|C horizon|R layer|Permafrost]",
+    "example":"A horizon",
+    "preferredUnit":"",
+    "occurence":"1",
+    "url":"https://w3id.org/gensc/terms/MIXS_0001082"
+  },
+  {
+    "mixsId":"MIXS:0000321",
+    "structuredCommentName":"horizon_meth",
+    "label":"horizon method",
+    "definition":"Reference or method used in determining the horizon",
+    "expectedValue":"PMID,DOI or url",
+    "valueSyntax":"{PMID}|{DOI}|{URL}",
+    "example":"0",
+    "preferredUnit":"",
+    "occurence":"1",
+    "url":"https://w3id.org/gensc/terms/MIXS_0000321"
+  },
+  {
+    "mixsId":"MIXS:0000992",
+    "structuredCommentName":"depos_env",
+    "label":"depositional environment",
+    "definition":"Main depositional environment (https://en.wikipedia.org/wiki/Depositional_environment). If \"other\" is specified, please propose entry in \"additional info\" field",
+    "expectedValue":"enumeration",
+    "valueSyntax":"[Continental - Alluvial|Continental - Aeolian|Continental - Fluvial|Continental - Lacustrine|Transitional - Deltaic|Transitional - Tidal|Transitional - Lagoonal|Transitional - Beach|Transitional - Lake|Marine - Shallow|Marine - Deep|Marine - Reef|Other - Evaporite|Other - Glacial|Other - Volcanic|other]",
+    "example":"Continental - Alluvial",
+    "preferredUnit":"",
+    "occurence":"1",
+    "url":"https://w3id.org/gensc/terms/MIXS_0000992"
   }
 ]
