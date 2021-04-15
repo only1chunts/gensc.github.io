@@ -3694,17 +3694,5 @@
     "preferredUnit":"",
     "occurence":"1",
     "url":"https://w3id.org/gensc/terms/MIXS_0000993"
-  },
-  {
-    "mixsId":"MIXS:0000405",
-    "structuredCommentName":"owc_tvdss",
-    "label":"oil water contact depth",
-    "definition":"Depth of the original oil water contact (OWC) zone (average) (m TVDSS)",
-    "expectedValue":"measurement value",
-    "valueSyntax":"{float} {unit}",
-    "example":"0",
-    "preferredUnit":"",
-    "occurence":"1",
-    "url":"https://w3id.org/gensc/terms/MIXS_0000405"
   }
 ]
