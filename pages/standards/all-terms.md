@@ -1,5 +1,6 @@
 {% include header.html %}
 
+refrresh
  
 {% include search-terms.html %}
 

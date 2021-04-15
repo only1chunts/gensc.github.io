@@ -1095,7 +1095,7 @@ $('#txt-search').keyup(function(){
 			  $.each(data, function(key, val){
 				if ((val.mixsId.search(regex) != -1) || (val.label.search(regex) != -1) || (val.definition.search(regex) != -1)) {
 				  output += '<h5>' +val.mixsId+ '</h5>'; 
-				  output += +val.mixsId+.link(+val.url+).innerHTML ;
+				  output += '<b>URL:</b>' + val.url + '</br>';
 				  output += '<b>Term name:</b>' + val.label + '</br>'; 
 				  output += '<b> Definition:</b>' + val.definition + '</br>'; 
 				  
