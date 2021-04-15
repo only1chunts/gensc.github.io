@@ -3586,5 +3586,41 @@
     "preferredUnit":"",
     "occurence":"1",
     "url":"https://w3id.org/gensc/terms/MIXS_0000403"
+  },
+  {
+    "mixsId":"MIXS:0000862",
+    "structuredCommentName":"host_sex",
+    "label":"host sex",
+    "definition":"Physical sex of the host",
+    "expectedValue":"enumeration",
+    "valueSyntax":"[male|female|neuter|hermaphrodite|not determined]",
+    "example":"female",
+    "preferredUnit":"",
+    "occurence":"1",
+    "url":"https://w3id.org/gensc/terms/MIXS_0000862"
+  },
+  {
+    "mixsId":"MIXS:0000864",
+    "structuredCommentName":"host_disease_stat",
+    "label":"host disease status",
+    "definition":"List of diseases with which the host has been diagnosed; can include multiple diagnoses. The value of the field depends on host; for humans the terms should be chosen from do (disease ontology) at http://www.disease-ontology.org, other hosts are free text",
+    "expectedValue":"disease name or DO",
+    "valueSyntax":"{termLabel} {[termID]}|{text}",
+    "example":"rabies [DOID:11260]",
+    "preferredUnit":"",
+    "occurence":"m",
+    "url":"https://w3id.org/gensc/terms/MIXS_0000864"
+  },
+  {
+    "mixsId":"MIXS:0000990",
+    "structuredCommentName":"lithology",
+    "label":"lithology",
+    "definition":"Hydrocarbon resource main lithology (Additional information: http://petrowiki.org/Lithology_and_rock_type_determination). If \"other\" is specified, please propose entry in \"additional info\" field",
+    "expectedValue":"enumeration",
+    "valueSyntax":"[Basement|Chalk|Chert|Coal|Conglomerate|Diatomite|Dolomite|Limestone|Sandstone|Shale|Siltstone|Volcanic|other]",
+    "example":"Volcanic",
+    "preferredUnit":"",
+    "occurence":"1",
+    "url":"https://w3id.org/gensc/terms/MIXS_0000990"
   }
 ]
