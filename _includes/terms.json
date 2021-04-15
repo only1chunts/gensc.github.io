@@ -3658,17 +3658,5 @@
     "preferredUnit":"",
     "occurence":"1",
     "url":"https://w3id.org/gensc/terms/MIXS_0000992"
-  },
-  {
-    "mixsId":"MIXS:0000322",
-    "structuredCommentName":"sieving",
-    "label":"composite design/sieving (if any)",
-    "definition":"Collection design of pooled samples and/or sieve size and amount of sample sieved",
-    "expectedValue":"design name and/or size;amount",
-    "valueSyntax":"{{text}|{float} {unit}};{float} {unit}",
-    "example":"0",
-    "preferredUnit":"",
-    "occurence":"1",
-    "url":"https://w3id.org/gensc/terms/MIXS_0000322"
   }
 ]
