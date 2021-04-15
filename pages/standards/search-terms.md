@@ -9,6 +9,10 @@
   <div>
     <h1>Term Search</h1>
 	<div id="header"></div>
+	<div>
+	There are over 600 individual terms that have been defined by GSC over the years during the development of the multiple standards and associatted packages. Finding details of individual terms can be tricky if you do not know the specific name or ID, for this reason we provide a simple search tool here.<br>
+	The Label, ID and definitions are all indexed for search.<br>
+	</div>
 	<form role="form">
         <div class="form-group">
           <input type="input" class="form-control input-lg" id="txt-search" placeholder="Start typing to searh for terms">
@@ -39,14 +43,9 @@ $('#txt-search').keyup(function(){
 			  $.each(data, function(key, val){
 				if ((val.mixsId.search(regex) != -1) || (val.label.search(regex) != -1) || (val.definition.search(regex) != -1)) {
 				  output += '<h5>' +val.mixsId+ '</h5>'; 
-				  output += '<b>URL:</b>' + val.url + '</br>';
-				  output += '<b>Term name:</b>' + val.label + '</br>'; 
-				  output += '<b> Definition:</b>' + val.definition + '</br>'; 
-				  
-<!-- working				  output += '<h5>' + val.mixsId + '</h5>'; -->
-<!-- working                  output += '<b>URL:</b>' + val.url + '</br>'; -->
-<!-- working				  output += '<b>Term name:</b>' + val.label + '</br>'; -->
-<!-- working				  output += '<b> Definition:</b>' + val.definition + '</br>'; -->
+				  output += '<strong>URL: </strong>' + val.url + '</br>';
+				  output += '<strong>Term name: </strong>' + val.label + '</br>'; 
+				  output += '<strong>Definition: </strong>' + val.definition + '</br>'; 
 				  if(count%2 == 0){
 					output += '</div><div class="row">'
 				  }
