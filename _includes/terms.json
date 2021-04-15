@@ -3658,5 +3658,53 @@
     "preferredUnit":"",
     "occurence":"1",
     "url":"https://w3id.org/gensc/terms/MIXS_0000992"
+  },
+  {
+    "mixsId":"MIXS:0000322",
+    "structuredCommentName":"sieving",
+    "label":"composite design/sieving (if any)",
+    "definition":"Collection design of pooled samples and/or sieve size and amount of sample sieved",
+    "expectedValue":"design name and/or size;amount",
+    "valueSyntax":"{{text}|{float} {unit}};{float} {unit}",
+    "example":"0",
+    "preferredUnit":"",
+    "occurence":"1",
+    "url":"https://w3id.org/gensc/terms/MIXS_0000322"
+  },
+  {
+    "mixsId":"MIXS:0000866",
+    "structuredCommentName":"host_body_habitat",
+    "label":"host body habitat",
+    "definition":"Original body habitat where the sample was obtained from",
+    "expectedValue":"free text",
+    "valueSyntax":"{text}",
+    "example":"nasopharynx",
+    "preferredUnit":"",
+    "occurence":"1",
+    "url":"https://w3id.org/gensc/terms/MIXS_0000866"
+  },
+  {
+    "mixsId":"MIXS:0000993",
+    "structuredCommentName":"hcr_geol_age",
+    "label":"hydrocarbon resource geological age",
+    "definition":"Geological age of hydrocarbon resource (Additional info: https://en.wikipedia.org/wiki/Period_(geology)). If \"other\" is specified, please propose entry in \"additional info\" field",
+    "expectedValue":"enumeration",
+    "valueSyntax":"[Archean|Cambrian|Carboniferous|Cenozoic|Cretaceous|Devonian|Jurassic|Mesozoic|Neogene|Ordovician|Paleogene|Paleozoic|Permian|Precambrian|Proterozoic|Silurian|Triassic|other]",
+    "example":"Silurian",
+    "preferredUnit":"",
+    "occurence":"1",
+    "url":"https://w3id.org/gensc/terms/MIXS_0000993"
+  },
+  {
+    "mixsId":"MIXS:0000405",
+    "structuredCommentName":"owc_tvdss",
+    "label":"oil water contact depth",
+    "definition":"Depth of the original oil water contact (OWC) zone (average) (m TVDSS)",
+    "expectedValue":"measurement value",
+    "valueSyntax":"{float} {unit}",
+    "example":"0",
+    "preferredUnit":"",
+    "occurence":"1",
+    "url":"https://w3id.org/gensc/terms/MIXS_0000405"
   }
 ]
