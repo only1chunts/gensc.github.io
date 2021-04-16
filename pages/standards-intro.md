@@ -117,7 +117,7 @@ If you are interested in a specific term or terms, we provide a [simple search](
 
 ## Terminology (GSC parlance) :
 
-- **MIxS checklists ** - Used to refer to the entire collection of all checklists under the MIxS umbrella, or replace the MIxS with a specific Checklist to refer to any individual complete collection of terms, such as MIGS or MIMAGS checklists.
+- **MIxS checklists** - Used to refer to the entire collection of all checklists under the MIxS umbrella, or replace the MIxS with a specific Checklist to refer to any individual complete collection of terms, such as MIGS or MIMAGS checklists.
 
 - **Sub-checklist or Type-Specific checklists** - User to refer to the subdivisions of checklists within any of the main checklist types, e.g. MIGS is a checklist, MIGS-EU is a sub-checklist of MIGS. (Note. This terminology is rarely used, often the sub-checklists are simply refered to as checklists).
 
@@ -128,10 +128,10 @@ If you are interested in a specific term or terms, we provide a [simple search](
 - **Term / Item / Descriptor / Attribute** - There is some historical flexibility in how we have refered to the attribute terms over the years, sometime they are refered to as Items, Terms or Descriptors. We would like to unify this, and to now only use the word "terms" to mean the individual attribute terms within the checklists. Each term is uniquely defined and given its own URI. See the [terms page](standards/all-terms.html) for a complete list of all terms.
 
 - **Sections** - All the terms are allocated into sections to aid checklist development. These sections are;
-        - **Investigation** - terms that relate the project and linking it other electronic resources
-		- **Nucleic acid sequence source** - terms that are about where and how the DNA sample was created
-		- **Sequencing** - terms that relate to how the DNA sample was processed for sequencing
-		- **Environmental** - terms that relate to the environment from which the sample/DNA was obtained
+        -- **Investigation** - terms that relate the project and linking it other electronic resources
+		-- **Nucleic acid sequence source** - terms that are about where and how the DNA sample was created
+		-- **Sequencing** - terms that relate to how the DNA sample was processed for sequencing
+		-- **Environmental** - terms that relate to the environment from which the sample/DNA was obtained
 The packages tend to focus on the Environmental section terms, whilst the other sections are largely covered in the checklists and sub-checklists.
 
 
