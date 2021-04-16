@@ -129,13 +129,13 @@ If you are interested in a specific term or terms, we provide a [simple search](
 
 - **Sections** - All the terms are allocated into sections to aid checklist development. These sections are;
 
-        -- **Investigation** - terms that relate the project and linking it other electronic resources
+        **Investigation** - terms that relate the project and linking it other electronic resources
 		
-		-- **Nucleic acid sequence source** - terms that are about where and how the DNA sample was created
+		**Nucleic acid sequence source** - terms that are about where and how the DNA sample was created
 		
-		-- **Sequencing** - terms that relate to how the DNA sample was processed for sequencing
+		**Sequencing** - terms that relate to how the DNA sample was processed for sequencing
 		
-		-- **Environmental** - terms that relate to the environment from which the sample/DNA was obtained
+		**Environmental** - terms that relate to the environment from which the sample/DNA was obtained
 		
 The packages tend to focus on the Environmental section terms, whilst the other sections are largely covered in the checklists and sub-checklists.
 
