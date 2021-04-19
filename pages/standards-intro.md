@@ -94,14 +94,14 @@ Each checklist is then defined by additional type-specific descriptors. These sp
 <details>
 <summary> Click to show mandatory terms.</summary>
 
-- taxonomic identity marker
-- assembly quality
-- assembly software
-- completeness score
-- completeness software
-- contamination score 
-- binning parameters
-- binning software
+  * taxonomic identity marker
+  * assembly quality
+  * assembly software
+  * completeness score
+  * completeness software
+  * contamination score 
+  * binning parameters
+  * binning software
 </details>
 
 ## Extensions
