@@ -1,10 +1,11 @@
 {% include header.html %}
  
-# GSC Minimum Information about any Sequence (MIxS)
+ 
+# Minimum Information about any Sequence (MIxS)
 
 The current versions of the GSC family of minimum information standards (MIxS - Minimum Information about any (x) Sequence)
  are available below. We have provided the information in sections to enable users to understand the relationships between the various levels of complexity. You may wish to refer to our glossary (bottom of this page) of terminology. 
-In addition, we maintain a [GitHub repository](https://github.com/GenomicsStandardsConsortium/mixs) where the next versions are being developed and discussed, please feel free to join the discussion using the github issue tracker. The [GitHub Wiki](https://github.com/GenomicsStandardsConsortium/mixs/wiki) in that repository also contains some more techincal speficication 
+In addition, we maintain a [GitHub repository](https://github.com/GenomicsStandardsConsortium/mixs) where the next versions are being developed and discussed, please feel free to join the discussion using the github issue tracker. The [GitHub Wiki](https://github.com/GenomicsStandardsConsortium/mixs/wiki) in that repository also contains some more techincal specifications. 
 
 You can find all previous versions of the checklistsin our [mixs-legacy GitHub](https://github.com/GenomicsStandardsConsortium/mixs-legacy) repository.
 
@@ -90,6 +91,9 @@ Each checklist is then defined by additional type-specific descriptors. These sp
 - WGA amplification approach
 
 ### MIMAG
+<details>
+<summary> Click to show mandatory terms.</summary>
+
 - taxonomic identity marker
 - assembly quality
 - assembly software
@@ -98,7 +102,7 @@ Each checklist is then defined by additional type-specific descriptors. These sp
 - contamination score 
 - binning parameters
 - binning software
-
+</details>
 
 ## Extensions
 In order to encourage more comprehensive metadata inclusion with sequence data the GSC have encouraged the development of many extensions that can be used in addition to the Minimum Information for each checklist. These extnesions consist of many recomended terms that have been compiled by experts in the relevant field of research. Explore all the ready made checklist extensions that we have [available](/pages/standards/mixs-ext-and-profiles.html).
