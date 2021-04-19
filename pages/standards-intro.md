@@ -43,56 +43,89 @@ All checklists share the same central set of core (Minimum) descriptors, which a
 Each checklist is then defined by additional type-specific descriptors. These specific descriptors are summarized below for each checklist and subchecklist. Please note that this summary only includes minimum information for each sequence type, meaning that other conditional and optional descriptors are not included. 
 
 ### MIGS-EU
-- isolation and growth condition
-- assembly quality
-- assembly software
-- number of contigs
+<details>
+<summary> Click to show MIGS-EU (eukaryotes) mandatory terms.</summary>
+
+  * isolation and growth condition<br>
+  * assembly quality <br>
+  * assembly software<br>
+  * number of contigs
+</details>
 
 ### MIGS-BA
-- number of replicons
-- reference for biomaterial
-- isolation and growth condition
-- assembly quality
-- assembly software
-- number of contigs
+<details>
+<summary> Click to show MIGS-BA (bacteria) mandatory terms.</summary>
+
+  * number of replicons<br>
+  * reference for biomaterial<br>
+  * isolation and growth condition<br>
+  * assembly quality<br>
+  * assembly software<br>
+  * number of contigs
+</details>
 
 ### MIGS-PL
-- propagation
-- isolation and growth condition
-- assembly software
+<details>
+<summary> Click to show MIGS-PL (plants) mandatory terms.</summary>
+
+  * propagation<br>
+  * isolation and growth condition<br>
+  * assembly software
+</details>
 
 ### MIGS-VI
-- propagation
-- isolation and growth condition
-- assembly software
+<details>
+<summary> Click to show MIGS-VI (viruses) mandatory terms.</summary>
+
+  * propagation<br>
+  * isolation and growth condition<br>
+  * assembly software
+</details>
 
 ### MIGS-ORG
-- isolation and growth condition
-- assembly software
+<details>
+<summary> Click to show MIGS-ORG (organelles) mandatory terms.</summary>
+
+  * isolation and growth condition<br>
+  * assembly software
+</details>
 
 ### MIMS
+There are no MIMS specific mandatory terms.
 
 ### MIMARKS-S
-- target gene
+<details>
+<summary> Click to show MIMARKS-S mandatory terms.</summary>
+
+  * target gene
+</details>
 
 ### MIMARKS-C
-- isolation and growth condition
-- target gene
+<details>
+<summary> Click to show MIMARKS-C mandatory terms.</summary>
+
+  * isolation and growth condition<br>
+  * target gene
+</details>
 
 ### MISAG
-- taxonomic identity marker
-- assembly quality
-- assembly software
-- completeness score
-- completeness software
-- contamination score 
-- sorting technology
-- single cell lysis approach
-- WGA amplification approach
+<details>
+<summary> Click to show MISAG mandatory terms.</summary>
+
+  * taxonomic identity marker<br>
+  * assembly quality<br>
+  * assembly software<br>
+  * completeness score<br>
+  * completeness software<br>
+  * contamination score<br> 
+  * sorting technology<br>
+  * single cell lysis approach<br>
+  * WGA amplification approach
+</details>
 
 ### MIMAG
 <details>
-<summary> Click to show mandatory terms.</summary>
+<summary> Click to show MIMAG mandatory terms.</summary>
 
   * taxonomic identity marker<br>
   * assembly quality<br>
