@@ -42,7 +42,6 @@ All checklists share the same central set of core (Minimum) descriptors, which a
 
 Each checklist is then defined by additional type-specific descriptors. These specific descriptors are summarized below for each checklist and subchecklist. Please note that this summary only includes minimum information for each sequence type, meaning that other conditional and optional descriptors are not included. 
 
-### MIGS-EU
 <details>
 <summary> Click to show MIGS-EU (eukaryotes) mandatory terms.</summary>
 
@@ -52,7 +51,6 @@ Each checklist is then defined by additional type-specific descriptors. These sp
   * number of contigs
 </details>
 
-### MIGS-BA
 <details>
 <summary> Click to show MIGS-BA (bacteria) mandatory terms.</summary>
 
@@ -64,7 +62,6 @@ Each checklist is then defined by additional type-specific descriptors. These sp
   * number of contigs
 </details>
 
-### MIGS-PL
 <details>
 <summary> Click to show MIGS-PL (plants) mandatory terms.</summary>
 
@@ -73,7 +70,6 @@ Each checklist is then defined by additional type-specific descriptors. These sp
   * assembly software
 </details>
 
-### MIGS-VI
 <details>
 <summary> Click to show MIGS-VI (viruses) mandatory terms.</summary>
 
@@ -82,7 +78,6 @@ Each checklist is then defined by additional type-specific descriptors. These sp
   * assembly software
 </details>
 
-### MIGS-ORG
 <details>
 <summary> Click to show MIGS-ORG (organelles) mandatory terms.</summary>
 
@@ -90,17 +85,14 @@ Each checklist is then defined by additional type-specific descriptors. These sp
   * assembly software
 </details>
 
-### MIMS
 There are no MIMS specific mandatory terms.
 
-### MIMARKS-S
 <details>
 <summary> Click to show MIMARKS-S mandatory terms.</summary>
 
   * target gene
 </details>
 
-### MIMARKS-C
 <details>
 <summary> Click to show MIMARKS-C mandatory terms.</summary>
 
@@ -108,7 +100,6 @@ There are no MIMS specific mandatory terms.
   * target gene
 </details>
 
-### MISAG
 <details>
 <summary> Click to show MISAG mandatory terms.</summary>
 
@@ -123,7 +114,6 @@ There are no MIMS specific mandatory terms.
   * WGA amplification approach
 </details>
 
-### MIMAG
 <details>
 <summary> Click to show MIMAG mandatory terms.</summary>
 
