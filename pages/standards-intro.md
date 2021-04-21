@@ -7,9 +7,10 @@ The current versions of the GSC family of minimum information standards (MIxS - 
  are available below. We have provided the information in sections to enable users to understand the relationships between the various levels of complexity. You may wish to refer to our glossary (bottom of this page) of terminology. 
 In addition, we maintain a [GitHub repository](https://github.com/GenomicsStandardsConsortium/mixs) where the next versions are being developed and discussed, please feel free to join the discussion using the github issue tracker. The [GitHub Wiki](https://github.com/GenomicsStandardsConsortium/mixs/wiki) in that repository also contains some more techincal specifications. 
 
+The [first MIGS specification](https://doi.org/10.1038/nbt1360) enabled description of the complete range of possible genomes (eukaryotes, bacteria, archaea, plasmids, viruses, organelles) and metagenomes. With core descriptors to include information about the origins of the nucleic acid sequence (genome), its environment (latitude and longitude, date and time of sampling and habitat) and sequence processing (sequencing and assembly methods). Since then we have expanded the family of checklists to not only allow a more comprehensive cataloging of metadata per sequence, but also to include sequence types that were not feasible at the time such as single cell sequencing (MISAG) and metagenome assembly sequences (MIMAG). 
+
+
 You can find all previous versions of the checklistsin our [mixs-legacy GitHub](https://github.com/GenomicsStandardsConsortium/mixs-legacy) repository.
-
-
 
 ## Checklists
 
